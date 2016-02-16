@@ -1,0 +1,5 @@
+project: ExceptionHandling_dependencies {
+    includes += $(EXCEPTIONHANDLING_PRJ_ROOT)/include
+    libpaths += $(EXCEPTIONHANDLING_PRJ_ROOT)/lib
+    libs += ExceptionHandling
+}

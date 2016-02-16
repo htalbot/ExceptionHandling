@@ -1,0 +1,10 @@
+#include "ExceptionHandling.evc.h"
+
+BEGIN_EVENT_DEF_NAMESPACE(ExceptionHandlingEvents)
+	STATIC_EVENT_DEF(ev_unhandled_exception, 1, "Unhandled exception: %1(%d) ==> suicide.")
+	STATIC_EVENT_DEF(ev_caught_terminate, 2, "Exception caught: '%1(%s)'.")
+	STATIC_EVENT_DEF(ev_signal_caught, 3, "Signal caught: '%1(%s)'.")
+	STATIC_EVENT_DEF(ev_pure_call_exception, 4, "C++ pure call exception.")
+	STATIC_EVENT_DEF(ev_caught_memory_depletion, 5, "Memory depletion.")
+	STATIC_EVENT_DEF(ev_preventing_SetUnhandledExceptionFilter_failure, 6, "Can't prevent SetUnhandledExceptionFilter.")
+END_EVENT_NAMESPACE()

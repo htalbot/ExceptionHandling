@@ -1,0 +1,5 @@
+project: test_ExceptionHandling_ex, test_ExceptionHandling_fit_static {
+
+    exename = test_ExceptionHandling_static
+
+}
